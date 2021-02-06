@@ -35,3 +35,8 @@ input {
 .card img {
     max-height: 170px;
 }
+
+:root {
+    --animate-duration: 1000ms;
+    --animate-delay: 3s;
+}
