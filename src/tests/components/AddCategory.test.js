@@ -38,7 +38,5 @@ describe('Pruebas en <AddCategory />', () => {
         expect(setCategories).toHaveBeenCalledWith(expect.any(Function));
         //el valor del input debe estar vacio
         expect(wrapper.find('input').prop('value')).toBe('');        
-    })
-    
-    
+    })    
 })
