@@ -2,6 +2,7 @@ import React from 'react';
 import { GifGrid } from '../../components/GifGrid';
 import {shallow} from 'enzyme';
 import { useFetchGifs } from '../../hooks/useFetchGifs';
+import '@testing-library/jest-dom';
 jest.mock('../../components/GifGrid');
 
 
